@@ -1,0 +1,86 @@
+div.heading {
+    padding: 2rem 0;
+    text-align: center;
+    color: white;
+    
+}
+
+
+.project1,.project2,.project3 {
+    background-size: cover;
+    margin: 0rem;
+    padding: 0rem;
+    
+    }
+
+.project1 {
+    background: url("/Images/project1bg1.jpg");  
+}
+
+.project2 {
+    background: url("/Images/project2bg.jpg");  
+}
+
+.project3 {
+    background: url("/Images/project2bg2.jpg");  
+}
+.project4 {
+    background: url("/Images/project4bg.jpg"); 
+}
+
+
+.projectLP {
+
+    width: 450px;
+    margin-top: 5rem;
+
+}
+
+.projectLP1 {
+
+    width: 450px;
+    border-radius: 2rem;
+    margin-top: 5rem;
+}
+/* .part1 {
+    background-color: white; */
+    /* min-height: 60px;
+    vertical-align: middle;
+    width: 50px;
+    opacity: 1;
+    
+} */
+
+.part2 {
+    /* background-color: yellow; */
+    min-height: 600px;
+    text-align: left;
+    color: white;
+    padding-top: 60px;
+    width: 500px;
+    padding-right: 7rem;
+    text-align: justify;
+    padding-bottom: 25px;
+    
+}
+
+.project4 .part2 {
+    color: black;
+}
+
+.Tools-item {
+    float: left;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    font-size: 0.9rem;
+} 
+
+/* 
+@media screen and (max-width: 500px){
+.project1,.project2,.project3{
+    background-size: cover;
+    margin: 0rem;
+    padding: 0rem;
+    
+    }
+} */

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+#photo {
+    padding: 5rem;
+}
+.container-fluid#photo{
+    background-color: white;
+}
+
+.img-fluid {
+    margin-top: 2rem;
+    transition: ease-out 0.3s;
+    opacity: 0.95;
+    
+    
+    
+}
+
+.img-fluid::after {
+   background-color: orange; 
+}
+
+
+
+.img-fluid:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+          transition: 0.3s;
+    opacity: 100;
+    z-index: 9999;
+}
+
+
+span.s1 {
+  position: absolute;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  top: 0;
+  font-size: 12rem;
+  font-family: "Rubik";
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+  opacity: 0.3;
+}
+
+

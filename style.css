@@ -1,0 +1,377 @@
+body{
+    padding-top: 80px;
+    background-color: #000000;
+    font-family: "Montserrat";
+    
+}
+
+
+.navbar {
+    font-size: medium;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 2px solid #262626;
+}
+
+.navbar-nav a:hover {
+  border-bottom: 1px solid orange;
+}
+
+.navbar-nav a.active {
+  border-bottom: 1px solid white;
+}
+
+.navbar .navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 1rem;
+}
+
+.main-content{
+
+    color: white;
+    font-size: x-large;
+}
+
+
+.main-content .info h1#hi{
+    font-size: 4rem
+}
+
+.main-content .info h1 .name{
+    font-size: 4.5rem;
+    font-weight: 800;
+    transition: .5s;
+}
+
+.main-content .info h1 .name:hover{
+    font-size: 4.5rem;
+    font-weight: 800;
+     text-shadow: 0 0 0.1em orange;
+     transition: .5s;
+}
+
+.profile {
+    text-align: center;
+}
+
+/* Download BUtton */
+.download-button{
+    border-color: orange;
+    color: orange;
+    margin: 5% 3% 5% 0;
+    border-radius: 0;
+}
+
+.btn-outline-warning:hover,
+.btn-outline-warning:active,
+.btn-outline-warning:focus,
+.btn-outline-warning.active {
+  background: orange;
+  color: white;
+  border-color:orange;
+}
+
+.like-button:hover,
+.btn-outline-warning:focus,
+.btn-outline-warning.active {
+  background: none;
+  color: white;
+  border-color:orange;
+  box-shadow: 0 0 0.8em orange;
+}
+
+.like-button {
+    display: block;
+    margin-left: 40%;
+    
+}
+
+/* Tags */
+.top-tags {
+    bottom: auto;
+    top: 0;
+}
+
+.tags {
+    color: #515152;
+    position: relative;
+    bottom: 0;
+    left: 0px;
+    font-size: 18px;
+    font-family: 'La Belle Aurore',cursive;
+    text-align: left;
+}
+
+.closing-tags {
+    display: block;
+}
+
+ .quote, .comma{
+    font-family: 'Varela';
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* Cursor CSS */
+.wrapper h1 {
+    display:inline-block;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+  font-size:3rem;
+  color:orange;
+  
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/* Footer */
+
+.site-footer {
+  background-color: #000000;
+  padding: 10px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgb(158, 156, 156);
+  width: 100%;
+  border-top: 2px solid rgba(76, 75, 75, 0.34);
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: white;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: white;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: black;
+}
+.copyright-text {
+    
+    line-height: 44px;
+  margin: 0;
+}
+/* @media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+} */
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.github:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.instagram:hover {
+  background-color: #ea4c89;
+}
+
+
+.site-footer, .site-footer .social-icons {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+  
+  
+  .profile {
+    display: none;
+  }
+
+  .info {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 600px) {
+
+/* Styles */
+
+  .info {
+    width: 100%;
+  }
+  .profile {
+    position: absolute;
+    width: 372px;
+    z-index: -999;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .profile img {
+    margin-left: auto;
+  }
+}
+
+
+@media only screen and (min-device-width : 601px) and (max-device-width : 768px) {
+/* Styles */
+.social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+
+  .profile {
+    position: absolute;
+    z-index: -999;
+    margin-top: 2rem;
+    margin-left: 8rem;
+  }
+  
+
+  /* .Page1 {
+    margin-left: 30px;
+    text-align: left;
+  } */
+
+  .profile img {
+   margin-left: auto; 
+  }
+
+  .like-button {
+    margin: 0;
+    right: 0;
+    margin-left: auto;
+  }
+
+  .info {
+    margin-bottom: 1rem;
+  }
+  
+}
+
+
+@media only screen and (min-device-width : 769px) and (max-device-width : 900px) {
+
+  
+
+}
