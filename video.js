@@ -1,61 +1,85 @@
+// for first video
+var vid1 = document.getElementById('video1');
+vid1.addEventListener('touchstart', function () {
+    vid1.paused = "true";
 
-function moveToSelected(element) {
 
-    if (element == "next") {
+    if (vid1.paused) {
+        vid1.play();
 
-        var selected = $(".selected").next();
-    } else if (element == "prev") {
-
-        var selected = $(".selected").prev();
-    } else {
-        var selected = element;
     }
+    else {
+        vid1.pause();
 
-    var next = $(selected).next();
-    var prev = $(selected).prev();
-
-    var prevSecond = $(prev).prev();
-
-    var nextSecond = $(next).next();
-
-
-    $(selected).removeClass().addClass("selected");
-
-    $(prev).removeClass().addClass("prev");
-    $(next).removeClass().addClass("next");
-
-    $(nextSecond).removeClass().addClass("nextRightSecond");
-    $(prevSecond).removeClass().addClass("prevLeftSecond");
-
-    $(nextSecond).nextAll().removeClass().addClass('hideRight');
-    $(prevSecond).prevAll().removeClass().addClass('hideLeft');
-
-}
-
-$(document).keydown(function (e) {
-    switch (e.which) {
-        case 37: // left
-            moveToSelected('prev');
-            break;
-
-        case 39: // right
-            moveToSelected('next');
-            break;
-
-        default: return;
     }
-    e.preventDefault();
+});
+// Ending of first video
+
+// second video
+var vid2 = document.getElementById('video2');
+vid2.addEventListener('touchstart', function () {
+    vid2.paused = "true";
+
+
+    if (vid2.paused) {
+        vid2.play();
+
+    }
+    else {
+        vid2.pause();
+
+    }
+});
+//Ending second video
+
+// Third Video
+var vid3 = document.getElementById('video3');
+vid3.addEventListener('touchstart', function () {
+    vid3.paused = "true";
+
+
+    if (vid3.paused) {
+        vid3.play();
+
+    }
+    else {
+        vid3.pause();
+
+    }
+});
+// Ending Third Video
+
+// fourth Video
+var vid4 = document.getElementById('video4');
+vid4.addEventListener('touchstart', function () {
+    vid4.paused = "true";
+
+
+    if (vid4.paused) {
+        vid4.play();
+
+    }
+    else {
+        vid4.pause();
+
+    }
+});
+// Ending Fourth Video
+
+// Fifth Video
+var vid5 = document.getElementById('video5');
+vid5.addEventListener('touchstart', function () {
+    vid5.paused = "true";
+
+
+    if (vid5.paused) {
+        vid5.play();
+
+    }
+    else {
+        vid5.pause();
+
+    }
 });
 
-$('#carousel div').click(function () {
-    moveToSelected($(this));
-});
-
-$('#prev').click(function () {
-    moveToSelected('prev');
-});
-
-$('#next').click(function () {
-    moveToSelected('next');
-});
-
+// Ending of Fifth video

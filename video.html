@@ -94,66 +94,74 @@
     <div class="heading">
         <h1>&#8213; VIDEOS &#8213;</h1>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="custCarousel" class="carousel slide" data-ride="carousel" align="center">
+                    <!-- slides -->
+                    <div class="carousel-inner">
 
-    <div id="carousel">
-
-        <div class="hideLeft">
-            <a href=""></a>
-            <video id="test_video" width="320" height="240" controls="controls" loop onmouseover="this.play()"
-                onmouseout="this.pause();">
-                <source src="./Video/ABES Technovation.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+                        <div class="carousel-item active">
+                            <video id="video1" controls="controls">
+                                <source src="./Video/ABES Technovation.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="carousel-item">
+                            <video id="video2" controls="controls">
+                                <source src="./Video/ABES Technovation_2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="carousel-item">
+                            <video id="video3" controls="controls">
+                                <source src="./Video/TechnoRecruitment.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="carousel-item">
+                            <video id="video4" controls="controls">
+                                <source src="./Video/VID-20190409-WA0005.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="carousel-item">
+                            <video id="video5" controls="controls">
+                                <source src="./Video/VID-20190410-WA0007.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <!-- Left right -->
+                    <a class="carousel-control-prev" href="#custCarousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#custCarousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    <!-- Thumbnails -->
+                    <ol class="carousel-indicators list-inline" style="margin-bottom: 100px;">
+                        <li class="list-inline-item active"> <a id="carousel-selector-0" class="selected"
+                                data-slide-to="0" data-target="#custCarousel"> <img src="./Video/ABES Technovation.png"
+                                    class="img-fluid">
+                            </a> </li>
+                        <li class="list-inline-item"> <a id="carousel-selector-1" data-slide-to="1"
+                                data-target="#custCarousel"> <img src="./Video/ABES Technovation_2.png"
+                                    class="img-fluid">
+                            </a> </li>
+                        <li class="list-inline-item"> <a id="carousel-selector-2" data-slide-to="2"
+                                data-target="#custCarousel"> <img src="./Video//TechnoRecruitment.png"
+                                    class="img-fluid">
+                            </a> </li>
+                        <li class="list-inline-item"> <a id="carousel-selector-3" data-slide-to="3"
+                                data-target="#custCarousel"> <img src="./Video//TechnoRecruitment2.png"
+                                    class="img-fluid">
+                            </a> </li>
+                        <li class="list-inline-item"> <a id="carousel-selector-4" data-slide-to="4"
+                                data-target="#custCarousel"> <img src="./Video//TechnoRecruitment3.png"
+                                    class="img-fluid">
+                            </a> </li>
+                    </ol>
+                </div>
+            </div>
         </div>
-
-        <div class="prevLeftSecond">
-            <video id="test_video" width="320" height="240" controls="controls" loop onmouseover="this.play()"
-                onmouseout="this.pause();">
-                <source src="./Video/ABES Technovation_2.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-        </div>
-
-        <div class="prev">
-            <video id="test_video" width="320" height="240" controls="controls" loop onmouseover="this.play()"
-                onmouseout="this.pause();">
-                <source src="./Video/TechnoRecruitment.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-        </div>
-
-        <div class="selected">
-            <video id="test_video" width="320" height="240" controls="controls" loop onmouseover="this.play()"
-                onmouseout="this.pause();">
-                <source src="./Video/VID-20190409-WA0005.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-        </div>
-
-        <div class="next">
-            <video id="test_video" width="320" height="240" controls="controls" loop onmouseover="this.play()"
-                onmouseout="this.pause();">
-                <source src="./Video/VID-20190410-WA0007.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-        </div>
-
-        <!-- <div class="nextRightSecond">
-            <video id="test_video" width="320" height="240" controls="controls" loop onmouseover="this.play()"
-                onmouseout="this.pause();">
-                <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-        </div> -->
-
-        <!-- <div class="hideRight">
-                    <video id="test_video" width="320" height="240" controls="controls">
-                        <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
-                </div> -->
-
     </div>
+
 
     <!-- Footer -->
 
