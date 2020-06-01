@@ -82,7 +82,7 @@ var lang = {
     css: "90%",
     javascript: "70%",
     php: "80%",
-    angular: "65%",
+    angular: "90%",
     python: "70%",
     java: "60%",
     c: "80%",
